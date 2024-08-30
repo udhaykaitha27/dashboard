@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    height: 400px;
+    position: relative;
+    top: 100px;
+    /* bottom: 200px; */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .login-container h2 {
+    margin-top: -20px;
+    color: #333;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .login-container img 
+  {
+    position: relative;
+    top: -30px;
+  }
+  
+  .login-container button {
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dashboard-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 8px;
+  }
+  
+  .dashboard-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #7C3784;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #c82333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f8f9fa;
+  }
+  
+  table td a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  table td button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  table td button:hover {
+    background-color: #c82333;
+  }
+  
+  input[type="file"] {
+    margin-left: 100px;
+  }
+  .dashboard-container img {
+    position: relative;
+    top: -20px;
+  }
+  
